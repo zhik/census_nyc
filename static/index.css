@@ -32,6 +32,7 @@ sub {
 .cards {
   display: flex;
   align-self: flex-start;
+  flex-wrap: wrap;
 }
 
 .cards > div {
@@ -39,6 +40,7 @@ sub {
   padding: 0.2em 1em;
   background: #f3f3f3;
   margin: 0.3em;
+  min-width: 280px;
 }
 
 .empty {
