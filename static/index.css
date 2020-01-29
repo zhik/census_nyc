@@ -1,0 +1,66 @@
+body {
+  margin: 40px auto;
+  max-width: 700px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 1em;
+  float: left;
+  font-size: 0.8em;
+  color: #555;
+  letter-spacing: -1px;
+}
+
+sub {
+  font-size: 0.7rem;
+  vertical-align: 25%;
+}
+
+.cards {
+  display: flex;
+  align-self: flex-start;
+}
+
+.cards > div {
+  flex: 1;
+  padding: 0.2em 1em;
+  background: #f3f3f3;
+  margin: 0.3em;
+}
+
+.empty {
+  background: white !important;
+}
+
+.cards h3 {
+  margin-top: 0.5em;
+}
+
+footer {
+  font-size: 0.8em;
+  color: #555;
+  float: right;
+}
+
+.countdown {
+  padding: 2rem;
+  background-color: #f3f3f3;
+  border: 4px solid #205493;
+}
+
+hr {
+  color: #205493;
+}
